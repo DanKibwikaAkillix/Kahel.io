@@ -5,15 +5,17 @@ body {
 
 h1 {
     color: #333;
+    font-size: 24px;
 }
 
 #calculator {
     margin: 20px;
+    font-size: 18px;
 }
 
 input, button {
-    padding: 5px;
-    font-size: 16px;
+    padding: 10px;
+    font-size: 18px;
 }
 
 #output {
@@ -28,4 +30,49 @@ input, button {
     width: 100px;
     height: 100px;
     margin: 10px;
+}
+
+/* Media Queries for Responsiveness */
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 20px;
+    }
+    
+    #calculator {
+        margin: 10px;
+        font-size: 16px;
+    }
+
+    input, button {
+        padding: 5px;
+        font-size: 16px;
+    }
+
+    #fruits img {
+        width: 70px;
+        height: 70px;
+        margin: 5px;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 900px) {
+    h1 {
+        font-size: 22px;
+    }
+
+    #calculator {
+        margin: 15px;
+        font-size: 16px;
+    }
+
+    input, button {
+        padding: 8px;
+        font-size: 16px;
+    }
+
+    #fruits img {
+        width: 80px;
+        height: 80px;
+        margin: 7px;
+    }
 }
