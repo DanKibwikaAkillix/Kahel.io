@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+#calculator {
+    margin: 20px;
+}
+
+input, button {
+    padding: 5px;
+    font-size: 16px;
+}
+
+#output {
+    margin-top: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+#fruits img {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
